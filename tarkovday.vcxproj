@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+FECUR1TY CRACKED BY XEV1L https://discord.gg/8Z7xejJBBu
+Telegram: https://t.me/xev1l9
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cheat\Math\Vector.cpp" />
+    <ClCompile Include="Cheat\Memory\Memory.cpp" />
+    <ClCompile Include="Cheat\Menu\Menu.cpp" />
+    <ClCompile Include="Cheat\Misc\FindPattern.cpp" />
+    <ClCompile Include="Cheat\Misc\hitmarker.c" />
+    <ClCompile Include="Cheat\Modifier\Modifier.cpp" />
+    <ClCompile Include="Cheat\SDK\SDK.cpp" />
+    <ClCompile Include="Cheat\Config\Config.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Cheat\ESP\ESP.cpp" />
+    <ClCompile Include="ImGui\CustomImGui.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp" />
+    <ClCompile Include="ImGui\ImGui_demo.cpp" />
+    <ClCompile Include="ImGui\imgui_draw.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="ImGui\imgui_shader_dx11.cpp" />
+    <ClCompile Include="ImGui\imgui_tables.cpp" />
+    <ClCompile Include="ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Cheat\Misc\MapData\MapData.cpp" />
+    <ClCompile Include="Render\kiero\kiero.cpp" />
+    <ClCompile Include="Render\kiero\minhook\src\buffer.c" />
+    <ClCompile Include="Render\kiero\minhook\src\hde\hde32.c" />
+    <ClCompile Include="Render\kiero\minhook\src\hde\hde64.c" />
+    <ClCompile Include="Render\kiero\minhook\src\hook.c" />
+    <ClCompile Include="Render\kiero\minhook\src\trampoline.c" />
+    <ClCompile Include="WebUtil\WebUtil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cheat\Math\Vector.h" />
+    <ClInclude Include="Cheat\Memory\Memory.h" />
+    <ClInclude Include="Cheat\Menu\Menu.h" />
+    <ClInclude Include="Cheat\Misc\Base64.h" />
+    <ClInclude Include="Cheat\Misc\FindPattern.h" />
+    <ClInclude Include="Cheat\Misc\Ida.h" />
+    <ClInclude Include="Cheat\Misc\json.h" />
+    <ClInclude Include="Cheat\Misc\neverlose.h" />
+    <ClInclude Include="Cheat\Misc\shader.h" />
+    <ClInclude Include="Cheat\Misc\skCrypt.h" />
+    <ClInclude Include="Cheat\Misc\Syscall.h" />
+    <ClInclude Include="Cheat\Modifier\Modifier.h" />
+    <ClInclude Include="Cheat\SDK\c_asset_bundle.hpp" />
+    <ClInclude Include="Cheat\SDK\c_camera.hpp" />
+    <ClInclude Include="Cheat\SDK\c_material.hpp" />
+    <ClInclude Include="Cheat\SDK\c_math.hpp" />
+    <ClInclude Include="Cheat\SDK\c_player.hpp" />
+    <ClInclude Include="Cheat\SDK\c_renderer.hpp" />
+    <ClInclude Include="Cheat\SDK\c_screen.hpp" />
+    <ClInclude Include="Cheat\SDK\c_shader.hpp" />
+    <ClInclude Include="Cheat\SDK\c_time.hpp" />
+    <ClInclude Include="Cheat\SDK\c_transform.hpp" />
+    <ClInclude Include="Cheat\SDK\c_world.hpp" />
+    <ClInclude Include="Cheat\SDK\hooks\bundle_bytes.h" />
+    <ClInclude Include="Cheat\SDK\mono\c_player.h" />
+    <ClInclude Include="Cheat\SDK\hooks.h" />
+    <ClInclude Include="Cheat\SDK\hooks\hookmain.h" />
+    <ClInclude Include="Cheat\SDK\mono\hooklib.h" />
+    <ClInclude Include="Cheat\SDK\mono\mono.h" />
+    <ClInclude Include="Cheat\SDK\mono\sapphire.h" />
+    <ClInclude Include="Cheat\SDK\mono\sapphire_crt.h" />
+    <ClInclude Include="Cheat\SDK\SDK.h" />
+    <ClInclude Include="Cheat\ESP\ESP.h" />
+    <ClInclude Include="Cheat\Config\Config.h" />
+    <ClInclude Include="Cheat\SDK\unity.hpp" />
+    <ClInclude Include="ImGui\CustomImGui.h" />
+    <ClInclude Include="ImGui\imconfig.h" />
+    <ClInclude Include="ImGui\imgui.h" />
+    <ClInclude Include="ImGui\imgui_impl_dx11.h" />
+    <ClInclude Include="ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="ImGui\imgui_internal.h" />
+    <ClInclude Include="ImGui\imgui_shader_dx11.h" />
+    <ClInclude Include="ImGui\imstb_image.h" />
+    <ClInclude Include="ImGui\imstb_rectpack.h" />
+    <ClInclude Include="ImGui\imstb_textedit.h" />
+    <ClInclude Include="ImGui\imstb_truetype.h" />
+    <ClInclude Include="ImGui\MenuBackground.h" />
+    <ClInclude Include="ImGui\MenuFonts.h" />
+    <ClInclude Include="ImGui\MenuTabFont.h" />
+    <ClInclude Include="ImGui\stb_image.h" />
+    <ClInclude Include="ImGui\x07dns_rectpack.h" />
+    <ClInclude Include="ImGui\x07dns_textedit.h" />
+    <ClInclude Include="ImGui\x07dns_truetype.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="ImGui\Awesome.h" />
+    <ClInclude Include="Cheat\Misc\MapData\MapData.h" />
+    <ClInclude Include="Render\kiero\kiero.h" />
+    <ClInclude Include="Render\kiero\minhook\include\MinHook.h" />
+    <ClInclude Include="Render\kiero\minhook\src\buffer.h" />
+    <ClInclude Include="Render\kiero\minhook\src\hde\hde32.h" />
+    <ClInclude Include="Render\kiero\minhook\src\hde\hde64.h" />
+    <ClInclude Include="Render\kiero\minhook\src\hde\pstdint.h" />
+    <ClInclude Include="Render\kiero\minhook\src\hde\table32.h" />
+    <ClInclude Include="Render\kiero\minhook\src\hde\table64.h" />
+    <ClInclude Include="Render\kiero\minhook\src\trampoline.h" />
+    <ClInclude Include="WebUtil\WebUtil.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\curl.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\curlver.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\easy.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\mprintf.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\multi.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\options.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\stdcheaders.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\system.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\typecheck-gcc.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\urlapi.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cheat\Misc\logo.h" />
+    <None Include="Render\kiero\minhook\dll_resources\MinHook.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Render\kiero\minhook\dll_resources\MinHook.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Cheat\Misc\Syscall.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="WebUtil\curllibx64\lib\libcurl_a.lib" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0A666239-C2DE-4406-B399-BAF3A4808F91}</ProjectGuid>
+    <RootNamespace>helloworld</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="PlatformToolset">
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Configuration)\x64\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\x64\Intermediate\</IntDir>
+    <IncludePath>$(WindowsSDK_IncludePath)Include;C:\Users\Admin\Desktop\mono-main;$(IncludePath)</IncludePath>
+    <LibraryPath>$(WindowsSDK_IncludePath)Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Configuration)\x64\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\x64\Intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\x86\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\x86\Intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\x86\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\x86\Intermediate\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <SDLCheck>true</SDLCheck>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions);NDEBUG</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalOptions>-lwinmm %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>Winmm.lib;%(AdditionalDependencies);Ws2_32.lib;Wldap32.lib;$(SolutionDir)WebUtil\curllibx64\lib\libcurl_a.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

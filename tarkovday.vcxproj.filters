@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp" />
+    <ClCompile Include="ImGui\imgui_draw.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="ImGui\imgui_shader_dx11.cpp" />
+    <ClCompile Include="ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Cheat\Math\Vector.cpp" />
+    <ClCompile Include="Cheat\Memory\Memory.cpp" />
+    <ClCompile Include="Cheat\Menu\Menu.cpp" />
+    <ClCompile Include="Cheat\Modifier\Modifier.cpp" />
+    <ClCompile Include="Cheat\SDK\SDK.cpp" />
+    <ClCompile Include="Render\kiero\minhook\src\hde\hde32.c" />
+    <ClCompile Include="Render\kiero\minhook\src\hde\hde64.c" />
+    <ClCompile Include="Render\kiero\minhook\src\buffer.c" />
+    <ClCompile Include="Render\kiero\minhook\src\hook.c" />
+    <ClCompile Include="Render\kiero\minhook\src\trampoline.c" />
+    <ClCompile Include="Render\kiero\kiero.cpp" />
+    <ClCompile Include="Cheat\ESP\ESP.cpp" />
+    <ClCompile Include="Cheat\Config\Config.cpp" />
+    <ClCompile Include="WebUtil\WebUtil.cpp" />
+    <ClCompile Include="Cheat\Misc\hitmarker.c" />
+    <ClCompile Include="Cheat\Misc\FindPattern.cpp" />
+    <ClCompile Include="ImGui\CustomImGui.cpp" />
+    <ClCompile Include="ImGui\imgui_tables.cpp" />
+    <ClCompile Include="ImGui\ImGui_demo.cpp" />
+    <ClCompile Include="Cheat\Misc\MapData\MapData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h" />
+    <ClInclude Include="ImGui\imgui.h" />
+    <ClInclude Include="ImGui\imgui_impl_dx11.h" />
+    <ClInclude Include="ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="ImGui\imgui_internal.h" />
+    <ClInclude Include="ImGui\imgui_shader_dx11.h" />
+    <ClInclude Include="Cheat\SDK\SDK.h" />
+    <ClInclude Include="Cheat\Math\Vector.h" />
+    <ClInclude Include="Cheat\Memory\Memory.h" />
+    <ClInclude Include="Cheat\Menu\Menu.h" />
+    <ClInclude Include="Cheat\Misc\skCrypt.h" />
+    <ClInclude Include="Cheat\Modifier\Modifier.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="Render\kiero\minhook\include\MinHook.h" />
+    <ClInclude Include="Render\kiero\minhook\src\hde\hde32.h" />
+    <ClInclude Include="Render\kiero\minhook\src\hde\hde64.h" />
+    <ClInclude Include="Render\kiero\minhook\src\hde\pstdint.h" />
+    <ClInclude Include="Render\kiero\minhook\src\hde\table32.h" />
+    <ClInclude Include="Render\kiero\minhook\src\hde\table64.h" />
+    <ClInclude Include="Render\kiero\minhook\src\buffer.h" />
+    <ClInclude Include="Render\kiero\minhook\src\trampoline.h" />
+    <ClInclude Include="Render\kiero\kiero.h" />
+    <ClInclude Include="Cheat\ESP\ESP.h" />
+    <ClInclude Include="Cheat\Config\Config.h" />
+    <ClInclude Include="Cheat\Misc\Syscall.h" />
+    <ClInclude Include="WebUtil\WebUtil.h" />
+    <ClInclude Include="Cheat\Misc\json.h" />
+    <ClInclude Include="ImGui\Awesome.h" />
+    <ClInclude Include="Cheat\Misc\FindPattern.h" />
+    <ClInclude Include="ImGui\x07dns_truetype.h" />
+    <ClInclude Include="ImGui\x07dns_textedit.h" />
+    <ClInclude Include="ImGui\x07dns_rectpack.h" />
+    <ClInclude Include="ImGui\MenuTabFont.h" />
+    <ClInclude Include="ImGui\MenuBackground.h" />
+    <ClInclude Include="ImGui\MenuFonts.h" />
+    <ClInclude Include="ImGui\stb_image.h" />
+    <ClInclude Include="ImGui\CustomImGui.h" />
+    <ClInclude Include="ImGui\imstb_rectpack.h" />
+    <ClInclude Include="ImGui\imstb_textedit.h" />
+    <ClInclude Include="ImGui\imstb_truetype.h" />
+    <ClInclude Include="Cheat\Misc\Ida.h" />
+    <ClInclude Include="ImGui\imstb_image.h" />
+    <ClInclude Include="Cheat\Misc\MapData\MapData.h" />
+    <ClInclude Include="Cheat\Misc\shader.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\curl.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\curlver.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\easy.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\mprintf.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\multi.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\options.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\stdcheaders.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\system.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\typecheck-gcc.h" />
+    <ClInclude Include="WebUtil\curllibx64\include\curl\urlapi.h" />
+    <ClInclude Include="Cheat\Misc\Base64.h" />
+    <ClInclude Include="Cheat\Misc\neverlose.h" />
+    <ClInclude Include="Cheat\SDK\mono\mono.h" />
+    <ClInclude Include="Cheat\SDK\mono\sapphire.h" />
+    <ClInclude Include="Cheat\SDK\mono\sapphire_crt.h" />
+    <ClInclude Include="Cheat\SDK\mono\hooklib.h" />
+    <ClInclude Include="Cheat\SDK\hooks.h" />
+    <ClInclude Include="Cheat\SDK\hooks\hookmain.h" />
+    <ClInclude Include="Cheat\SDK\mono\c_player.h" />
+    <ClInclude Include="Cheat\SDK\c_asset_bundle.hpp" />
+    <ClInclude Include="Cheat\SDK\c_camera.hpp" />
+    <ClInclude Include="Cheat\SDK\c_material.hpp" />
+    <ClInclude Include="Cheat\SDK\c_math.hpp" />
+    <ClInclude Include="Cheat\SDK\c_player.hpp" />
+    <ClInclude Include="Cheat\SDK\c_renderer.hpp" />
+    <ClInclude Include="Cheat\SDK\c_screen.hpp" />
+    <ClInclude Include="Cheat\SDK\c_shader.hpp" />
+    <ClInclude Include="Cheat\SDK\c_time.hpp" />
+    <ClInclude Include="Cheat\SDK\c_transform.hpp" />
+    <ClInclude Include="Cheat\SDK\c_world.hpp" />
+    <ClInclude Include="Cheat\SDK\unity.hpp" />
+    <ClInclude Include="Cheat\SDK\hooks\bundle_bytes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Render\kiero\minhook\dll_resources\MinHook.def" />
+    <None Include="Cheat\Misc\logo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Render\kiero\minhook\dll_resources\MinHook.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Cheat\Misc\Syscall.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="WebUtil\curllibx64\lib\libcurl_a.lib" />
+  </ItemGroup>
+</Project>
